@@ -5,21 +5,23 @@ with several cooks, themselves cooking several pizzas. It's written in C++ with 
 
 ## How to Use
 
-If you launch the program without arguments, you will have this following message:
+The program take three arguments:
 
-> Usage : ./plazza <time multiplier> <cooks per kitchen> <fridge refresh speed>
-
-The time multiplier: a multiplier for the cooking time.
+- The time multiplier: a multiplier for the cooking time.
+- cooks by kitchen
+- fridge refresh speed
 
 ### Commands
 
 After launch, you can command a pizza (or hamburger) by the following syntax
 
+### Simple command
+
 > TYPE SIZE NUMBER [;...]
 
 > - TYPE =
 > - SIZE = S|M|L|XL|XXL
-> NUMBER = x[1..9][0..9]
+> - NUMBER = x[1..9][0..9]
 
 #### example
 
