@@ -23,7 +23,7 @@ After launch, you can command a pizza (or hamburger) by the following syntax
 - SIZE = S|M|L|XL|XXL
 - NUMBER = x[1..9][0..9]
 
-#### example
+##### example
 
 > regina XXL x2; fantasia M x3; margarita S x1
 
@@ -32,6 +32,12 @@ After launch, you can command a pizza (or hamburger) by the following syntax
 > RECIPE TYPE SIZE NUMBER [INGREDIENT] [;...]
 
 - RECIPE = pizza|burger
+- TYPE (pizza only) = regina|margarita|americaine|fantasia
+- TYPE (burger only) = royal|gourmand
 - SIZE = S|M|L|XL|XXL
 - NUMBER = x[1..9][0..9]
 - INGREDIENT = ham|gruyere|doe|tomato|steak|mushroom|goatcheese|eggplant
+
+##### example
+
+> pizza margarita XXL x34 ham; burger gourmant S x2 tomato gruyere
